@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		/*
 		if (llueve)
-			"Enfrente"
+			"Delivery pidiendo con tiempo"
 		else if (lunes)
 			"Tres Cruces"
 		else if (dia <= "Miercoles")
