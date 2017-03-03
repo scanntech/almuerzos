@@ -12,7 +12,7 @@ public class Main {
 		 	System.out.println("Vamos a donde pintó");
 		} else if (tiempo.getClima().equalsIgnoreCase("lluvia")) {
 			System.out.println("Delivery pidiendo con tiempo");			
-		} else if (dia == lunes) {		
+		} else if (dia == lunes || elLunesYODiasPosterioresFueronFeriado()) {		
 			System.out.println("Tres Cruces");			
 		} else if (dia <= miércoles) {
 			System.out.println("Panadería, Al lado Panadería");
